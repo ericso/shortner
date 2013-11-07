@@ -1,0 +1,5 @@
+      [paste.app_factory]
+      main = shortner:main
+      [console_scripts]
+      initialize_shortner_db = shortner.scripts.initializedb:main
+      
